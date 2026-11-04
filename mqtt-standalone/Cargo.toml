@@ -1,0 +1,12 @@
+[package]
+name = "mqtt-standalone"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rumqttd = "0.20.0"
+rumqttc = "0.24"
+config = "0.14"
+tokio = { version = "1", features = ["full"] }
+sysinfo = "0.35"
+chrono = "0.4"
